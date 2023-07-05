@@ -26,7 +26,7 @@ class CryptocurrenciesList extends Component {
           {cryptocurrenciesData.map(eachCryptocurrency => (
             <CryptocurrencyItem
               key={eachCryptocurrency.id}
-              CryptocurrencyDetails={eachCryptocurrency}
+              cryptocurrencyDetails={eachCryptocurrency}
             />
           ))}
         </ul>

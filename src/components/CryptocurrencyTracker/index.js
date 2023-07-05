@@ -6,7 +6,7 @@ import CryptocurrenciesList from '../CryptocurrenciesList'
 
 import './index.css'
 
-const apiUrl = 'https://assets.ccbp.in/frontend/react-js/cryptocurrency-bg.png'
+const apiUrl = 'https://assets.ccbp.in/crypto-currency-converter'
 
 class CryptocurrencyTracker extends Component {
   state = {
